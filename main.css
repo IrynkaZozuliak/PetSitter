@@ -1,7 +1,14 @@
-.header_green {
-    background-color: #65c178;
-}
-
-.header {
-     
-}
+@import url(css/header.css);
+@import url(css/about_us.css );
+@import url(css/pets_we_care.css );
+@import url(css/services.css );
+@import url(css/need_sitter.css );
+@import url(css/questions_carousel.css );
+@import url(css/our_team.css );
+@import url(css/contactform_wanted.css );
+@import url(css/gallery.css );
+@import url(css/testimonials.css );
+@import url(css/partners.css );
+@import url(css/blog.css );
+@import url(css/contact_us.css );
+@import url(css/footer.css );
