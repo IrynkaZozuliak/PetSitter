@@ -1,7 +1,32 @@
+
 .header_green {
     background-color: #65c178;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.header {
-     
+.header_right {
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.logo_container {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.imagelogo {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
 }
