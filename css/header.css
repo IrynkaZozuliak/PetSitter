@@ -144,20 +144,26 @@
     gap: 20px;
   }
 
-  .button_container_one {
-     
+  .button_container_one { 
     padding: 17px 37px 17px 37px;
     border-radius: 5px;
     border-color: #65c178;
     background-color: #65c178;
-
   }
-  
+
+  .button_container_one:hover {
+    cursor: pointer;
+    border-color: #ffffff;
+    background-color: #ffffff;
+     
+}
+
+
+
   .button_container_two {
     padding: 17px 37px 17px 37px;
     border-radius: 5px;
     border-color: #ffffff;
-
   }
 
 .find_contacts {
@@ -183,11 +189,5 @@
     }
 
 
-    .button_container_one:hover {
-        cursor: pointer;
-        border-color: #ffffff;
-        background-color: #ffffff;
-         
-    }
 
     
