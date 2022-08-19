@@ -103,12 +103,15 @@
 }
 
  
-
- .hhtext {
+ .text_h_p {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    margin-top: 250px;
+    gap: 25px;
+ }
+
+ .hhtext_box {
     font-size: 62px;
     color: #ffffff;
     line-height: 1;
@@ -119,4 +122,72 @@
     font-style: normal;
     letter-spacing: 0;
  }
- 
+
+ .pptext_box {
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: none;
+ }
+
+
+  .buttom_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .button_container_one {
+     
+    padding: 17px 37px 17px 37px;
+    border-radius: 5px;
+    border-color: #65c178;
+    background-color: #65c178;
+
+  }
+  
+  .button_container_two {
+    padding: 17px 37px 17px 37px;
+    border-radius: 5px;
+    border-color: #ffffff;
+
+  }
+
+.find_contacts {
+    position: relative;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1; 
+}
+
+.become_email {
+    position: relative;
+    color: #65c178;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1; 
+    }
+
+
+    .button_container_one:hover {
+        cursor: pointer;
+        border-color: #ffffff;
+        background-color: #ffffff;
+         
+    }
+
+    
