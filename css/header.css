@@ -145,25 +145,45 @@
   }
 
   .button_container_one { 
-    padding: 17px 37px 17px 37px;
-    border-radius: 5px;
-    border-color: #65c178;
+    width: 165px;
+    height: 55px;
+    border: none;
+    padding: 13px 34px;
     background-color: #65c178;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-family: var(--mainfont);
+    margin-top: 60px;
+    border-radius: 4px;
+    border-width: 2px;
   }
 
   .button_container_one:hover {
     cursor: pointer;
     border-color: #ffffff;
     background-color: #ffffff;
+    
      
 }
 
 
 
   .button_container_two {
-    padding: 6px 37px 6px 37px;
-    border-radius: 5px;
-    border-color: #ffffff;
+    width: 190px;
+    height: 55px;
+    border: none;
+    padding: 13px 34px;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-family: var(--mainfont);
+    margin-top: 60px;
+    border-radius: 4px;
+    border-width: 2px;
   }
 
 .find_contacts {

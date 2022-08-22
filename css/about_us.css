@@ -1,4 +1,52 @@
 .image_dog_one {
-    width: 500px;
-    height: 350px;
+    width: 600px;
+    height: 370px;
+}
+
+
+.about_us {
+    margin-top: 100px;
+    margin-right: 185px;
+    margin-left: 185px;
+}
+
+.about_us_container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+
+.hh_about {
+    font-size: 44px;
+    color: var(--section-name-color);
+    line-height: 1;
+    font-family: var(--mainfont);
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+
+.pp_about {
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: var(--textfont);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #585858;
+    text-transform: none;
+    margin-top: 25px;
+}
+
+
+.button_aboutus {
+    padding: 10px 20px 10px 20px;
+     margin-top: 25px;
 }
