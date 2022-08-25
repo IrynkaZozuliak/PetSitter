@@ -1,4 +1,82 @@
+
+
+
+.background_need_section {
+    background-image: url(/img/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover; 
+}
+
+.need_sitter_container {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.text_need_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 90px;
+    
+}
+
+.hh2_need_sitter {
+    margin-top: 90px;
+    font-size: 44px;
+    color: #fff;
+    line-height: 1;
+    font-family: Cabin,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+
+.pp_text_need_position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pp_text_need {
+    font-size: 20px;
+    line-height: 1.4545;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: none;
+}
+
+.need_column_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.one_column_text {
+    margin-right: 150px;
+
+}
+
+.icons_text_position {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
 .icons_need_position {
     width: 100px;
     height: 100px;
+}
+
+.icons_container_all {
+    width: 100px;
+    margin-right: 17px;
 }
