@@ -1,22 +1,23 @@
 
-.header {
+.header_background_home {
    background-color: #676767;
-   background: linear-gradient(rgba(27, 28, 28, 0.5), rgba(6, 31, 7, 0.711)), url("http://res2.weblium.site/res/5c5321a02e017b00227a5282/5c5329ae44bc470022e84d7a_optimized_5120");
-   background-size: cover;
-   background-position: center;
+   background: linear-gradient( rgba(68, 68, 68, 0.5), rgba(39, 39, 9, 0.179) ), url("http://res2.weblium.site/res/5c5321a02e017b00227a5282/5c5329ae44bc470022e84d7a_optimized_5120");
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;   
+
+ 
+    background-size: cover;
+    background-position: center;
     display: flex;
     margin: 0;
     padding: 0;
     flex-direction: column;
     overflow-x: hidden;
-   height: 950px;
+    height: 950px;
+   
 }
- 
-.background_tiny {
-    background: linear-gradient(transparent, rgb(105, 103, 103));
-    height: 100%;
-     
-} 
 
 .header_green {
     background-color: #65c178;
