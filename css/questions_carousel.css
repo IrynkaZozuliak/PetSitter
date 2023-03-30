@@ -1,0 +1,127 @@
+:root {
+    --main__text-color: rgb(80, 81, 85); 
+    --main__border-color: #ccc; 
+    --description-text-light: rgba(255, 255, 255, 0.6); 
+    --description-text-dark: #505155; 
+    --button-color: #14a9ee; 
+    --faq-dash:#a9a9a9;
+    --dash-color: rgb(238,46,20);
+    --text-accordion-color: rgba(169, 169, 169); 
+    --text-description-color: rgb(112, 112, 112);
+    --title-light-color: #f5f5f5; 
+    --subtitle-light-color: rgba(255, 255, 255, 0.6); 
+    --subtitle-dark-color: rgb(111, 115, 128); 
+    --background-dark-color: rgb(35, 36, 40); 
+    --faq__subtitle_text-color: #a9a9a9;
+    
+    
+
+}
+
+.faq {
+    margin: 0px auto;
+    background-color: #232428;
+}
+
+.faq__content-information{
+    font-family: Roboto,sans-serif;
+    text-align: left;
+}
+
+.faq__content-img1 {
+    width: 800px;
+}
+
+.accordion-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--title-light-color);
+
+}
+
+.faq__hr {
+    color: var(--main__border-color);
+}
+
+.accordion-body {
+    line-height: 1.7;
+    color: var(--faq__subtitle_text-color);
+}
+
+.row{
+    height: 10%;
+    justify-items: center;
+    align-items: center;
+    padding: 5% 0px;
+}
+
+.faq__content-img1{
+    width: 100%;
+}
+
+.faq__content-items {
+    margin: 40px 20px;
+}
+
+.faq__content-item1{
+    margin: 40px 20px;
+}
+
+.faq__content-item2{
+    margin: 40px 20px;
+}
+
+.faq__content-item3{
+    margin: 40px 20px;
+}
+
+.faq__content-item4{
+    margin: 40px 20px;
+}
+
+.faq__content-information-title {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5%;
+    max-width: 500px;
+    font-size: 50px;
+    line-height: 1.4;
+    color: var(--title-light-color);
+}
+
+.faq__content-information-span {
+    color: var(--dash-color);
+}
+
+.faq__content-information-hyphen {
+    font-size: 13px;
+    font-family: Roboto,sans-serif;
+    color: var(--subtitle-dark-color);
+}
+
+.faq__content-information-subtitle {
+    font-family: Roboto,sans-serif;
+    
+}
+
+.accordion-button {
+    font-size: 1.1rem;
+    margin-bottom: 2%;
+}
+
+.faq__content-information-description {
+    color: var(--faq__subtitle_text-color);
+    font-family: Roboto,sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+}
+
+.faq__content-information-title-text {
+    color:#505155;
+}
+
+.faq__container-img{
+    background: url(..//img/faq__content-img.jpg) 45% 50% no-repeat;
+    height: 800px;
+    background-size: cover;
+}
