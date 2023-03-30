@@ -1,0 +1,29 @@
+.our_Team_main {
+    background-color: #585858;
+}
+.image_our_team {
+    height: 170px;
+    width: 270px;
+}
+
+.ourTeam_logotip {
+    display: flex;  
+    margin-right: 175px;
+    gap: 15px;
+}
+.logo_container_ourTeam {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: solid;
+    border-color: #12ae34;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.ourTeam_imagelogo {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+}
