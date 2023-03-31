@@ -163,14 +163,12 @@
     border-width: 2px;
   }
 
+
   .button_container_one:hover {
     cursor: pointer;
     border-color: #ffffff;
-    background-color: #ffffff;
-    
-     
+    background-color: #ffffff;  
 }
-
 
 
   .button_container_two {
