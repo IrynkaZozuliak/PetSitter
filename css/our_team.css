@@ -42,6 +42,10 @@ background: url(/img/fone.png)
 }
 .our_Team_main {
     background-color: #2a3034;
+    position: relative;
+    width: 400px;
+    padding-top: 90px;
+    padding-bottom: 90px;
    
     
 }
@@ -50,7 +54,7 @@ background: url(/img/fone.png)
 .image_ourTeam_positions {
       display: flex;
       justify-content: center;
-      padding-top: 40px ;
+      
 }
 .image_our_team {
     height: 120px;
@@ -64,8 +68,8 @@ background: url(/img/fone.png)
     color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
      
+     text-align: center;
      }
 
 .hh2_ourTeam_text_properties {
