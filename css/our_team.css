@@ -44,8 +44,8 @@ background: url(/img/fone.png)
     background-color: #2a3034;
     position: relative;
     width: 400px;
-    height: 580px;
-    padding-top: 45px;
+    height: 590px;
+    padding-top: 40px;
     padding-bottom: 90px;
    
     
@@ -76,7 +76,7 @@ background: url(/img/fone.png)
 .hh2_ourTeam_text_properties {
     font-size: 22px;
     line-height: 1.4545;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     padding-top: 20px;
 }
@@ -93,7 +93,7 @@ background: url(/img/fone.png)
 .pp__ourTeam_text_properties {
     font-size: 16px;
     line-height: 1.7;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
      margin-left: 27px;
      margin-right: 27px;
