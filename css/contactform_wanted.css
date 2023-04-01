@@ -26,11 +26,47 @@
 
 
 .contact_form_petSitters {
-    width: 575px;
+    width: 570px;
     height: 630px;
-    background-color: #ffffff;
+    background-color: #ffffff;   
     
-    
+    border-radius: 4px;
+}
+
+.hh2_pp_petSit_Wanted_location {
+    padding-top: 60px;
+    padding-right: 59px;
+    padding-left: 59px;
+    padding-bottom: 35px ;
+}
+
+.hh2_petSit_Wanted {
+    font-size: 44px;
+    color: #585858;
+    line-height: 1;
+    font-family: Cabin,sans-serif;
+    font-weight: 550;
+    padding-bottom: 30px;
+}
+ 
+.pp_petSit_Wanted {
+    font-size: 15px;
+    line-height: 1.75;
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+    color: #585858;    
 }
 
  
+
+.figura_position_petSit_all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+     
+}
+.figura_position_petSit {
+    width: 456px;
+    height: 35px;
+}
