@@ -1,0 +1,24 @@
+.background_petSittersWanted_section {
+    background-image: url(/img/background3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover; 
+    
+}
+
+.need_sitter_container {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.contact_form_petSitters {
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    
+    
+}
