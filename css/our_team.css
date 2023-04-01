@@ -110,20 +110,18 @@ background: url(/img/fone.png)
     font-weight: 400;
 }
 
+
 .ourTeam_logotip {
     display: flex;  
     gap: 15px;
     justify-content: center;
 }
-
+/*
 .logo_container_ourTeam {
     display: block;
     height: 30px;
     width: 30px;
-    border: solid;
-    border-color: #12ae34;
-    border-width: 1px;
-    border-radius: 50%;
+    
 }
 
 .ourTeam_imagelogo {
@@ -133,3 +131,20 @@ background: url(/img/fone.png)
     margin: 5px 5px 5px 5px;
     
 }
+*/
+.svg-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #65c178;
+  }
+  
+  .svg-icon circle {
+    stroke: #65c178;
+    stroke-width: 1;
+  }
