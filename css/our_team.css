@@ -69,8 +69,7 @@ background: url(/img/fone.png)
     color: #fff;
     display: flex;
     flex-direction: column;
-     
-     text-align: center;
+    text-align: center;
      }
 
 .hh2_ourTeam_text_properties {
@@ -103,7 +102,7 @@ background: url(/img/fone.png)
 .ourTeam_visited_aa {
     color: #fff;
     padding-top: 20px; 
-    padding-bottom: 27px;  
+    padding-bottom: 17px;  
     text-decoration: none;
     font-size: 14px;
     line-height: 1;
@@ -112,7 +111,8 @@ background: url(/img/fone.png)
 }
 
 
-  /*
+  /*тут реалізація кнопочок з переходом на фейсбук,
+  інсту та ютуб, щоб змінювались кольори
   */
 
 
@@ -124,9 +124,13 @@ background: url(/img/fone.png)
 }
 
 .wrapper {
-    display: inline-flex;
+    display: flex;
     list-style: none;
     color: #65c178;
+     justify-content: center;
+    
+     
+     
 }
 
 .wrapper .icon {
