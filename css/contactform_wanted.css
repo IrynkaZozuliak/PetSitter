@@ -68,8 +68,17 @@
 }
 .figura_position_petSit {
     width: 456px;
-    height: 35px;
+    height: 45px;
+    background-color: rgba(88, 88, 88, 0.12);
+    border-style: solid;
+    border-color: rgba(88, 88, 88, 0.001);
+    border-radius: 5px;
+    
 }
+
+ .asdfg {
+     
+ }
 
 
 
