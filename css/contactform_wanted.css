@@ -81,6 +81,11 @@
     color: #b2b2b2;
 }
 
+.text_posotion_ChoseFile {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ }
 
 .img_position_petSitWanted {
     width: 18px;
@@ -90,25 +95,26 @@
  .position_container_img_PetSit {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 25px;
     padding-left: 59px;
-    gap: 15px;
- }
-
- .text_posotion_ChoseFile {
-    display: flex;
-    flex-direction: row;
     gap: 10px;
  }
 
 
+.hh3_text_colories_ChoseFile {
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    color: #585858;
+}
 
 .btn_position_petSit {
     display: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 45px;
     padding-bottom: 25px;
      
 }
