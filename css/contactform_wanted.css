@@ -7,17 +7,20 @@
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover; 
+      
     
      /* -webkit-filter: contrast(35%);
      filter: contrast(35%);*//* зробити затемнення картинки*/
       
 }
-
+.background_shadow {
+    background-color:rgba(56, 56, 56, 0.7);
+}
 
 .need_sitter_container {
     margin-left: 175px;
     margin-right: 175px;
-   
+  
 }
 
 .contact_form_location {
