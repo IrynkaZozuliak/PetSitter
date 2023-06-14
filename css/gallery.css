@@ -44,8 +44,5 @@
 .image_gallery {
     height: 280px;
     width: 369px;
-  
-    
-    
-   
+    object-fit: cover;
 }
