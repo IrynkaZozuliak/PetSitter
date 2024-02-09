@@ -44,10 +44,19 @@
 .blog_text_contect_cont {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    
 }
 
 .text_cont_row {
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
 }
+
+.text_position_blog {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
