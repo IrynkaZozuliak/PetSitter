@@ -14,7 +14,7 @@
       
 }
 .background_shadow {
-    background-color:rgba(56, 56, 56, 0.7);
+    background-color:rgba(54, 54, 54, 0.756);
 }
 
 .need_sitter_container {
@@ -50,7 +50,7 @@
     font-size: 44px;
     color: #585858;
     line-height: 1;
-    font-family: Cabin,sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-weight: 550;
     padding-bottom: 30px;
 }
@@ -85,6 +85,7 @@
     font-weight: 400;
     font-family: 'Lato',sans-serif;
     color: #b2b2b2;
+    padding: 13px 18px;
 }
 
 .text_posotion_ChoseFile {
