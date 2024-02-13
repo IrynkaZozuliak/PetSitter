@@ -94,6 +94,24 @@ color: #b5b5b5;
 }
 
 
+.button_services_up button[type="submit"] {
+    display: inline-block;
+    font-size: 1rem;
+    background: #65c178;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.75rem 1.25rem;
+    transition: background 0.25s, color 0.25s;
+  }
+  
+  .button_services_up button[type="submit"]:hover {
+    color: #ffffff;
+    background: #585858;
+  }
+
+
 
 
  
