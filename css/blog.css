@@ -1,6 +1,6 @@
 
 .section_blog {
-    
+ 
     margin-top: 90px; 
     margin-bottom: 90px;
 }
@@ -43,21 +43,24 @@
     object-fit: cover;
 }
 
-.blog_text_contect_cont {
+
+.text_cont_column {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+    gap: 30px;
 }
 
-.creen_text_pp {
-    color: #65c178;
-}
 
 .text_cont_row {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
 }
+
+.creen_text_pp {
+    color: #65c178;
+}
+
 
 .text_position_blog {
     display: flex;
