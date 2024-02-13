@@ -10,13 +10,7 @@
     justify-content: center;
     padding-top: 95px;
 }
-@media (mix-width:500px) {
-    .pets_we_care_container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-}
+
 
 .hh_pets_we_care {
     font-size: 42px;
