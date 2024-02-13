@@ -14,8 +14,9 @@
 }
 
 .need_sitter_container {
-    margin-left: 175px;
-    margin-right: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .text_need_container {
@@ -60,6 +61,7 @@
 .need_column_container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .one_column_text {

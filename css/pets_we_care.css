@@ -21,15 +21,24 @@
     letter-spacing: 0;
 }
 
+.green_cont_padd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    gap: 27px;
+}
+
 .green_container_position {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 27px;
-    padding-top: 60px;
-    padding-bottom: 90px;
-    padding-left: 175px;
-    padding-right: 15px;
+   
+    
+   
 }
 
 .green_container {

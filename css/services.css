@@ -1,6 +1,7 @@
 .section_services {
-   margin-left: 175px;
-   margin-right: 150px; 
+    display: flex;
+    justify-content: center;
+   
 }
 .services_container {
    margin-top: 90px; 

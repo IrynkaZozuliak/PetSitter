@@ -1,7 +1,8 @@
 
 .section_Gallery {
-    margin-right: 175px;
-    margin-left: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .gallery_container {
@@ -32,11 +33,13 @@
 .img_gallery_allblock {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 30px
 }
 .img_gallery_position {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
     
 }
