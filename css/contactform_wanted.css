@@ -88,6 +88,9 @@
     padding: 13px 18px;
 }
 
+.figura_position_petSit:focus{
+    border-color: rgb(81, 149, 228);}
+
 .text_posotion_ChoseFile {
     display: flex;
     flex-direction: row;
@@ -159,6 +162,23 @@
 
 
 
+
+.button_contactForm button[type="submit"] {
+    display: inline-block;
+    font-size: 1rem;
+    background: #65c178;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.7rem 10rem;
+    transition: background 0.25s, color 0.25s;
+  }
+  
+  .button_contactForm button[type="submit"]:hover {
+    color: #ffffff;
+    background: #585858;
+  }
 
 
  
