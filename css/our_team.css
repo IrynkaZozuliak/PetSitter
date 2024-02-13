@@ -110,6 +110,11 @@ background: url(/img/fone.png)
     font-weight: 400;
 }
 
+.ourTeam_visited_aa:hover {
+    color: #56b3e9;
+      transition: 0.2s;
+}
+
 
   /*тут реалізація кнопочок з переходом на фейсбук,
   інсту та ютуб, щоб змінювались кольори
