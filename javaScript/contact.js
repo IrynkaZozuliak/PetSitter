@@ -34,7 +34,7 @@ dropZoneElement.addEventListener("drop", (e) => {
     dropZoneElement.classList.remove("dropzone--over");
 });
 
-const updateDropzoneFileList = (dropzoneE;Element, file) => {
+const updateDropzoneFileList = (dropzoneElement, file) => {
     let dropzoneFileMessage = dropzoneElement.querySelector(".file-info");
     dropzoneFileMessage.innerHTML = `${file.name}, ${file.size}
     bytes
