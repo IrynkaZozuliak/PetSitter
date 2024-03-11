@@ -672,32 +672,45 @@
                         </div>
                       
     
-                        <div >
-                            <form id="myForm" >
+                        
+                            <form id="myForm">
                                 <div class="figura_position_petSit_all"> 
-                                    <div class="form-group">
+                                    <div>
                                         <input class="figura_position_petSit" type="text" required placeholder="Full name*">
                                     </div>
-                                    <div class="form-group">
+                                    <div>
                                         <input class="figura_position_petSit" id="phone" name="phone" type="text" required placeholder="Phone number*">
                                     </div>
-                                    <div class="form-group">
+                                    <div>
                                         <input class="figura_position_petSit"   type="text" id="email" name="email" required placeholder="E-mail*">
                                     </div>
                                 </div>
     
 
-                                <div class="form-group">
-                                    <label for="file">Attach File:</label>
-                                    <input type="file" id="file" name="file" style="display: none;" multiple>
-                                
-                                    <ul class="files-list" id="filesList"></ul>
+                                <div  class="position_container_img_PetSit">
+                                    <div class="form-group">
+                                        <label for="file" class="hh3_text_colories_ChoseFile">Attach File</label>
+                                        <input type="file" id="file" name="file" style="display: none;" multiple>    
+                                        <ul class="files-list" id="filesList"></ul>
+                                    </div>
+
+                                    <div class="text_posotion_ChoseFile"> 
+                                        <div class="img_position_petSitWanted">
+                                            <svg  viewBox="0 0 17 17">
+                                                <path  fill-rule="evenodd" clip-rule="evenodd" d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z"></path>
+                                            </svg>
+                                        </div>
+                                        <h3 class="hh3_text_colories_ChoseFile">Choose file</h3>
+                                    </div>
                                 </div>
+
+
                                 <div class="button_service_position">
-                                <button type="button" class="find-me" onclick="sendEmail()">Find Me</button>
+                                    <div class="button_contactForm">
+                                        <button type="submit" class="find-me" onclick="sendEmail()">Find me</button>
+                                    </div>
                                 </div>
-                            </form>
-                        </div>
+                            </form> 
                     </div>
                 </div>
     
@@ -705,34 +718,7 @@
 
 
 
-<div class="position_container_img_PetSit">
-                            <h3 class="hh3_text_colories_ChoseFile">Attach File</h3>
-                            <div class="text_posotion_ChoseFile"> 
-                                <div class="img_position_petSitWanted">
-                                    <svg  viewBox="0 0 17 17">
-                                        <path  fill-rule="evenodd" clip-rule="evenodd" d="M8.9003.199954c-.2-.2666057-.59993-.2666053-.79993.000001L5.10018 4.19927c-.24727.32961-.01209.80005.39996.80005H7.5v8.99998h2V4.99932h2.0005c.4121 0 .6473-.47044.4-.80005L8.9003.199954zM15.5 8.99932v5.49658c0 .8011-.2 1.0041-1 1.0041h-12c-.8 0-1-.203-1-1.0041V8.99932H0v5.49658c0 1.4019 1.1 2.5034 2.5 2.5034h12c1.4 0 2.5-1.1015 2.5-2.5034V8.99932h-1.5z"></path>
-                                    </svg>
-                                </div>
-                                <h3 class="hh3_text_colories_ChoseFile">Choose file</h3>
-                            </div>
-                        </div>
-
-                         
-                            <div class="button_service_position">
-                                <div class="button_contactForm">
-                                    <form name="form-btn">
-                                        <button   type="submit">Find me</button>
-                                    </form> 
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-
+    
         </div>
         </div>
         </div>
@@ -774,13 +760,13 @@
             }
         </script>
 
+
         <!--"Start___Gallery , nine section."-->
                        
      
         <section class="section_Gallery" id="gallery">
             <div class="background_Gallery">   
             
-
                 <div class="gallery_container">
                     <div class="hh2_gallery_position">
                         <h2 class="hh2_gallery_properties">Gallery</h2>
@@ -1064,51 +1050,39 @@
             <!--"END___contactus , 13 section."-->
 
 
-
-
-
-
-     
-
-
     </main>
-
-    
-
-
-
-
-
-
 
 
             <!--"Start___footer , 14 section."-->
-
             <footer class="footer">
                 <div class="container row">
-                    <div class="footer-col">
-                        <h4>best pet</h4>
+
+                    <div class="foot_position_cont">
+                        <h2 class="hh2_foot_cont">Best Pet</h2>
+                        <p class="pp_foot_cont">We provide the love and care to any pet, without exception. Your best friends are in good hands!</p>
+                        <p>© Created by</p>
+                    </div>
+
+                    <div class="footer-col">  
                         <ul>
-                            <li><a href="#"> about us</a></li>
-                            <li><a href="#"> gallery</a></li>
-                            <li><a href="#"> blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
 
                     <div class="footer-col">
-                        <h4>two</h4>
                         <ul>
-                            <li><a href="#"> services</a></li>
-                            <li><a href="#"> FAQ</a></li>
-                            <li><a href="#"> contacts</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contacts</a></li>
                         </ul>
                     </div>
 
                     <div class="footer-col">
-                        <h4>three</h4>
                         <ul>
-                            <li><a href="#">become a sitter</a></li>
-                            <li><a href="#">happy clients</a></li>
+                            <li><a href="#">Become a Sitter</a></li>
+                            <li><a href="#">Happy Clients</a></li>
                         </ul>
                     </div>
 
@@ -1119,6 +1093,7 @@
                             <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
                             <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
                         </div>
+                        <h3>All rights Reserved</h3>
                     </div>
                 </div>
             </footer>
@@ -1127,6 +1102,6 @@
     <script src="javaScript/script.js"></script>
     <script src='javaScript/header.js'></script>
     <script src='javaScript/contact.js'></script>
-</body>
 
+</body>
 </html>

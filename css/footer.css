@@ -1,6 +1,6 @@
 .footer {
-    background-color: #151515;
-    padding: 80px 0;
+    background-color: #2a3034;
+    padding: 40px 0;
 }
 
 .container {
@@ -11,6 +11,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 ul {
@@ -18,7 +20,7 @@ ul {
 }
 
 .footer-col {
-    width: 25%;
+    width: 20%;
     padding: 0 15px;
 }
 
@@ -36,13 +38,13 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #E91E63;
+    background-color: #65c178;
     width: 50px;
     height: 2px;
 }
 
 .footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .footer-col ul li a {
@@ -53,15 +55,17 @@ ul {
     text-transform: capitalize;
     text-decoration: none;
     transition: all 0.3s ease;
+    font-size: 16px;
 }
 
 .footer-col ul li a:hover {
-    color: #FFF;
     padding-left: 7px;
+    color: #56b3e9;
+    transition: 0.1s;
 }
 
 .footer-col .social-links a {
-    color: #FFF;
+    color: #65c178;
     background-color: rgba(255, 255, 255, 0.2);
     display: inline-block;
     height: 40px;
@@ -75,7 +79,7 @@ ul {
 
 .footer-col .social-links a:hover {
     color: #151515;
-    background-color: #FFF;
+    background-color: #65c178;
 }
 
 @media(max-width: 767px) {
@@ -89,4 +93,55 @@ ul {
     .footer-col {
         width: 100%;
     }
+}
+
+
+.footer-col h3 {
+    font-size: 15px;
+    line-height: 1.4545;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: none;
+    padding-top: 70px;
+   
+}
+
+
+
+.foot_position_cont {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    width: 19%;
+}
+
+
+.hh2_foot_cont {
+font-size: 26px;
+color: #65c178;
+line-height: 1;
+font-family: Cabin,sans-serif;
+font-weight: 700;
+text-transform: none;
+text-decoration: none;
+font-style: normal;
+letter-spacing: 0;
+}
+
+.pp_foot_cont {
+    font-size: 16px;
+    line-height: 1.4545;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
