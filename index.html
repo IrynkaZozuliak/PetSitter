@@ -670,23 +670,39 @@
                             <p class="pp_petSit_Wanted">If you are passionate about animal care and look for 
                                 a rewarding career, you're in the right place! Join our team of pet sitters!</p>
                         </div>
-
-
-                        <div class="figura_position_petSit_all"> 
-                            <form  action="" >
-                                <input class="figura_position_petSit" type="text" required placeholder="Full name*">
+                      
+    
+                        <div class="figura_position_petSit_all">
+                            <form id="myForm">
+                                <div class="form-group">
+                                    <input class="figura_position_petSit" type="text" required placeholder="Full name*">
+                                </div>
+                                <div class="form-group">
+                                    <input class="figura_position_petSit" id="phone" name="phone" type="text" required placeholder="Phone number*">
+                                </div>
+                                <div class="form-group">
+                                    <input class="figura_position_petSit"   type="text" id="email" name="email" required placeholder="E-mail*">
+                                </div>
+    
+                                <div class="form-group">
+                                    <label for="file">Attach File:</label>
+                                    <input type="file" id="file" name="file" style="display: none;" multiple>
+                                
+                                    <ul class="files-list" id="filesList"></ul>
+                                </div>
+                                <div class="button_service_position">
+                                <button type="button" class="find-me" onclick="sendEmail()">Find Me</button>
+                                </div>
                             </form>
-
-                            <form action="">
-                                <input   class="figura_position_petSit" type="text" required placeholder="Phone number*">
-                            </form>
-
-                            <form action="">
-                                <input class="figura_position_petSit"   type="text" required placeholder="E-mail*">
-                            </form> 
                         </div>
+                    </div>
+                </div>
+    
+    
 
-                        <div class="position_container_img_PetSit">
+
+
+<div class="position_container_img_PetSit">
                             <h3 class="hh3_text_colories_ChoseFile">Attach File</h3>
                             <div class="text_posotion_ChoseFile"> 
                                 <div class="img_position_petSitWanted">
@@ -706,22 +722,54 @@
                                     </form> 
                                 </div>
                             </div>
-                         
-                       
 
-                    </div>
-                </div>
-                 
 
-            </div>
-            </div>
-            </div>
+
+
+
+
+
+
+        </div>
+        </div>
+        </div>
         </section>
 
 
         <!--"END___petSittersWanted , eight section."-->
 
-
+        <script>
+            // JavaScript для функціональності кнопки "Attach File" та "Find Me"
+        
+            // Функція для додавання файлів
+            document.getElementById('file').addEventListener('change', function(event) {
+                var fileList = event.target.files;
+                var filesListContainer = document.getElementById('filesList');
+        
+                for (var i = 0; i < fileList.length; i++) {
+                    var listItem = document.createElement('li');
+                    listItem.innerHTML = fileList[i].name + ' <span class="delete-file" onclick="removeFile(this)">&times;</span>';
+                    filesListContainer.appendChild(listItem);
+                }
+            });
+        
+            // Функція для видалення файлу
+            function removeFile(element) {
+                var fileItem = element.parentNode;
+                fileItem.parentNode.removeChild(fileItem);
+            }
+        
+            // Функція для відправки електронної пошти
+            function sendEmail() {
+                var form = document.getElementById('myForm');
+                var formData = new FormData(form);
+        
+                // Додаткові дії з даними перед відправленням, якщо потрібно
+        
+                // Відправка форми на сервер або дії, щоб надіслати електронну пошту
+                // Наприклад, використовуючи Fetch API або XMLHttpRequest
+            }
+        </script>
 
         <!--"Start___Gallery , nine section."-->
                        
@@ -1017,23 +1065,7 @@
 
 
 
-        <section class="style_bodd">
-            
-                <form class="dropzone-box">
-                    <h2>Upload and attach files</h2>
-                    <div class="dropzone-area">
-                        <div class="file-upload-icon"> <!-- svg --> </div>
-                        <input type="file" required id="upload-file" name="uploaded-file"> 
-                        <p class="file-info">No files Selected</p>
-                    </div>
-
-                    <div class="dropzone-actions"> 
-                        <button type="reset">Cancel</button>
-                        <button id="submit-button" type="submit">Save</button>
-                    </div>
-                </form>
-           
-        </section>
+     
 
 
     </main>

@@ -147,6 +147,72 @@
 
 
 
+    /* CSS для оформлення контактної форми */
+   
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+       
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    .attach-file {
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .files-list {
+        margin-top: 10px;
+    }
+
+    .files-list li {
+        margin-bottom: 5px;
+    }
+
+    .delete-file {
+        color: red;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    .find-me {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
