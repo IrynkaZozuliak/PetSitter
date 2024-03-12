@@ -109,4 +109,5 @@
 .aa_text_blog:hover {
     color: #56b3e9;
     text-decoration: underline;
+    transition: 0.2s;
 }

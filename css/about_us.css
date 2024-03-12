@@ -27,8 +27,7 @@
     color: var(--section-name-color);
     line-height: 1;
     font-family: var(--mainfont);
-    font-weight: 700;
-    
+    font-weight: 700; 
     font-style: normal;
     letter-spacing: 0;
 }
@@ -38,12 +37,9 @@
     font-size: 16px;
     line-height: 1.7;
     font-family: var(--textfont);
-    font-weight: 400;
-    text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
     color: #585858;
-    text-transform: none;
     margin-top: 25px;
 }
 
@@ -54,7 +50,7 @@
 
 .button_aboutus button[type="submit"] {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background: #ffffff;
     color: #1d1c1c;
     border: 1px solid ;
