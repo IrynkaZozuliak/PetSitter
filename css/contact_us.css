@@ -171,3 +171,19 @@
     color: #fff;
     text-transform: none;
 }
+
+.pp_contactUss_text_how {
+    font-size: 16px;
+    line-height: 1.4545;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: none;
+}
+
+.pp_contactUss_text_how:hover{
+    color: #56b3e9;
+}
+
+

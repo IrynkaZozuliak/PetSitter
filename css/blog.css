@@ -103,4 +103,10 @@
     word-wrap: break-word;
     z-index: 1;
     color: #b5b5b5;
+    text-decoration: none;
+}
+
+.aa_text_blog:hover {
+    color: #56b3e9;
+    text-decoration: underline;
 }

@@ -1,6 +1,7 @@
 .footer {
     background-color: #2a3034;
-    padding: 40px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -106,7 +107,7 @@ ul {
     letter-spacing: 0;
     color: #fff;
     text-transform: none;
-    padding-top: 70px;
+    padding-top: 90px;
    
 }
 
@@ -143,5 +144,5 @@ letter-spacing: 0;
     color: #fff;
     text-transform: none;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
