@@ -118,6 +118,7 @@
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     color: #585858;
+    cursor: pointer;
 }
 
 
@@ -137,12 +138,6 @@
     color: #ffffff;
     background: #585858;
   }
-
-
-
-
-
-
 
 
 
