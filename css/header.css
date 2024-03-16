@@ -32,25 +32,115 @@
 
 .header_right {
     display: flex;  
+    flex-direction: row;
     margin-right: 175px;
     gap: 15px;
 }
+
+
 .logo_container {
-    display: block;
-    height: 30px;
-    width: 30px;
-    border: solid;
-    border-color: #ffffff;
-    border-width: 1px;
-    border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+   justify-content: center;   
 }
 
-.imagelogo {
-    width: 17px;
-    height: 17px;
-    cursor: pointer;
-    margin: 5px 5px 5px 5px;
+.logo_container .logo {
+  position: relative;
+  background: #65c178;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(101, 193, 120, 0.1);
+  cursor: pointer;
+  transition: all 0.2s;
+    
 }
+
+.logo_container .logoimagen {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(101, 193, 120, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.logo_container .logoimagen::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.logo_container .logo:hover .logoimagen {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.logo_container .logo:hover span,
+.logo_container .logo:hover .logoimagen {
+  text-shadow: 0px -1px 0px rgba(101, 193, 120, 0.1);
+}
+
+.logo_container .facebook_header:hover,
+.logo_container .facebook_header:hover .logoimagen,
+.logo_container .facebook_header:hover .logoimagen::before {
+  background: #fff;
+  color: #65c178;
+}
+
+.logo_container .instagram_header:hover,
+.logo_container .instagram_header:hover .logoimagen,
+.logo_container .instagram_header:hover .logoimagen::before {
+  background: #fff;
+  color: #65c178;
+}
+
+.logo_container .youtube_header:hover,
+.logo_container .youtube_header:hover .logoimagen,
+.logo_container .youtube_header:hover .logoimagen::before {
+  background: #fff;
+  color: #65c178;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .numberspan {
     font-size: 16px;
