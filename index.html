@@ -754,34 +754,48 @@
         </script>
 
 
+
+
         <!--"Start___Gallery , nine section."-->
                        
      
-        <section class="section_Gallery" id="gallery">
-            <div class="background_Gallery">   
+        <section>
+            <!-- Модальне вікно -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImg">
+                <div id="caption"></div>
+                <a id="prevBtn" class="prev">&#10094;</a>
+                <a id="nextBtn" class="next">&#10095;</a>
+            </div>
             
+            <!-- Размітка для галереї -->
+            <section class="section_Gallery" id="gallery">
+                <div class="background_Gallery">   
                 <div class="gallery_container">
                     <div class="hh2_gallery_position">
-                        <h2 class="hh2_gallery_properties">Gallery</h2>
+                    <h2 class="hh2_gallery_properties">Gallery</h2>
                     </div>
-
                     <div class="img_gallery_allblock">
-                        <div class="img_gallery_position">
-                            <img class="image_gallery" src="img/gallery/gallery_one.jpg" id="myImg">
-                            <img class="image_gallery" src="img/gallery/gallery_two.jpg">
-                            <img class="image_gallery" src="img/gallery/gallery_three.jpg">
-                        </div>
-                        <div class="img_gallery_position">    
-                            <img class="image_gallery" src="img/gallery/gallery_four.jpg">
-                            <img class="image_gallery" src="img/gallery/gallery_five.jpg">
-                            <img class="image_gallery" src="img/gallery/gallery_six.jpg">
-                        </div>
+                    <div class="img_gallery_position">
+                        <img class="image_gallery" src="img/gallery/gallery_one.jpg">
+                        <img class="image_gallery" src="img/gallery/gallery_two.jpg">
+                        <img class="image_gallery" src="img/gallery/gallery_three.jpg">
+                    </div>
+                    <div class="img_gallery_position">    
+                        <img class="image_gallery" src="img/gallery/gallery_four.jpg">
+                        <img class="image_gallery" src="img/gallery/gallery_five.jpg">
+                        <img class="image_gallery" src="img/gallery/gallery_six.jpg">
+                    </div>
                     </div>
                 </div>           
-                 
-             </div>
-        </section>
+                </div>
+            </section>
+  
+          </section>
           <!--"END___Gallery , nine section."-->
+
+
 
 
           <!--"Start___testimonials , ten section."-->
@@ -1095,6 +1109,7 @@
     <script src="javaScript/script.js"></script>
     <script src='javaScript/header.js'></script>
     <script src='javaScript/contact.js'></script>
+    <script src='javaScript/gallery.js'></script>
 
 </body>
 </html>
