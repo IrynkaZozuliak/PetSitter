@@ -16,7 +16,12 @@ background: url(/img/fone.png)
    justify-content: center;
 }
 
-
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .ourTeam_hh2   {
+        margin-top: 45px; 
+   margin-bottom: 30px;
+    }
+}
 
 .hh2__ourTeam {
     font-size: 44px;
@@ -30,26 +35,51 @@ background: url(/img/fone.png)
     letter-spacing: 0;
 }
 
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .hh2__ourTeam   {
+        font-size: 22px; 
+    }
+}
+
 
 .row_ourTeam_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 90px;
-    gap: 27px;
-    
-    
+    gap: 27px; 
 }
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .row_ourTeam_container   {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 45px;
+    gap: 17px; 
+    }
+}
+
+
 .our_Team_main {
     background-color: #2a3034;
     position: relative;
     width: 400px;
     height: 590px;
     padding-top: 40px;
-    padding-bottom: 90px;
-   
-    
+    padding-bottom: 90px;   
 }
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .our_Team_main   {
+        width: 330px;
+    height: 360px;
+    padding-top: 20px;
+    padding-bottom: 45px; 
+    }
+}
+
+
 
 /*image*/
 .image_ourTeam_positions {
@@ -61,6 +91,13 @@ background: url(/img/fone.png)
     height: 120px;
     width: 120px;
     border-radius: 50%;
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .image_our_team   {
+        height: 60px;
+        width: 60px;
+    }
 }
 
 /*image*/
@@ -80,6 +117,12 @@ background: url(/img/fone.png)
     padding-top: 20px;
 }
 
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .hh2_ourTeam_text_properties   {
+        font-size: 16px;
+    }
+}
+
 .hh3_ourTeam_text_properties {
     font-size: 14px;
     line-height: 1;
@@ -89,14 +132,28 @@ background: url(/img/fone.png)
     padding-bottom: 20px;;
 }
 
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .hh3_ourTeam_text_properties   {
+        font-size: 11px;
+        padding-top: 10px;
+    padding-bottom: 10px;
+}
+    }
+
+
 .pp__ourTeam_text_properties {
     font-size: 16px;
     line-height: 1.7;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
      margin-left: 27px;
-     margin-right: 27px;
-     
+     margin-right: 27px;  
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .pp__ourTeam_text_properties   {
+        font-size: 12px;
+    }
 }
 
 .ourTeam_visited_aa {
@@ -108,6 +165,14 @@ background: url(/img/fone.png)
     line-height: 1;
     font-family: 'Lato',sans-serif;
     font-weight: 400;
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .ourTeam_visited_aa   {
+        font-size: 11px;
+        padding-top: 10px; 
+        padding-bottom: 7px;  
+    }
 }
 
 .ourTeam_visited_aa:hover {
@@ -132,10 +197,7 @@ background: url(/img/fone.png)
     display: flex;
     list-style: none;
     color: #65c178;
-     justify-content: center;
-    
-     
-     
+     justify-content: center;    
 }
 
 .wrapper .icon {
@@ -156,9 +218,9 @@ background: url(/img/fone.png)
     flex-direction: column;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: all 0.2s;
-      
+    transition: all 0.2s;  
 }
+
 
 .wrapper .tooltip {
     position: absolute;
