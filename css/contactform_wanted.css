@@ -20,7 +20,6 @@
 .need_sitter_container {
     margin-left: 175px;
     margin-right: 175px;
-  
 }
 
 .contact_form_location {
@@ -39,11 +38,27 @@
     border-radius: 4px;
 }
 
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .contact_form_petSitters  {
+        width: 350px;
+        height: 450px;
+    }
+}
+
 .hh2_pp_petSit_Wanted_location {
     padding-top: 60px;
     padding-right: 59px;
     padding-left: 59px;
     padding-bottom: 35px ;
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .hh2_pp_petSit_Wanted_location  {
+        padding-top: 30px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 5px ;
+    }
 }
 
 .hh2_petSit_Wanted {
@@ -54,6 +69,13 @@
     font-weight: 550;
     padding-bottom: 30px;
 }
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .hh2_petSit_Wanted  {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+}
  
 .pp_petSit_Wanted {
     font-size: 15px;
@@ -63,6 +85,12 @@
     color: #585858;    
 }
 
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .pp_petSit_Wanted  {
+        font-size: 12px;
+        line-height: 1.25;
+    }
+}
  
 
 .figura_position_petSit_all {
@@ -86,6 +114,14 @@
     font-family: 'Lato',sans-serif;
     color: #b2b2b2;
     padding: 13px 18px;
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .figura_position_petSit  {
+        width: 300px;
+        height: 25px;
+        font-size: 12px;
+    }
 }
 
 .figura_position_petSit:focus{
