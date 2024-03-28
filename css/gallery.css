@@ -44,6 +44,13 @@
     
 }
 
+@media only screen and (min-width:320px) and (max-width:1024px) {
+  .img_gallery_position  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .image_gallery {
     height: 280px;
     width: 369px;
