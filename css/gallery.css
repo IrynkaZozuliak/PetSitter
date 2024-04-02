@@ -44,7 +44,7 @@
     
 }
 
-@media only screen and (min-width:320px) and (max-width:1024px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
   .img_gallery_position  {
     display: flex;
     flex-direction: column;
