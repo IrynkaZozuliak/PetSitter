@@ -5,9 +5,9 @@
 
 @media only screen and (min-width:320px) and (max-width:767px) {
     .image_dog_one {
-        width: 350px;
-    height: 250px;
-    margin-left: 30px;
+        width: 330px;
+    height: 213px;
+    margin-left: 20px;
     }
 }
 
@@ -40,11 +40,10 @@
 @media only screen and (min-width:320px) and (max-width:767px) {
     .text_container_about {
         width: 90%;
-       margin-left: 30px;
-       margin-right: 30px;
+       margin-left: 20px;
+       margin-top: 15px;
     }
 }
-
 
 .hh_about {
     font-size: 44px;
@@ -56,6 +55,11 @@
     letter-spacing: 0;
 }
 
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .hh_about {
+        font-size: 28px;
+    }
+}
 
 .pp_about {
     font-size: 16px;
@@ -67,6 +71,12 @@
     margin-top: 25px;
 }
 
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .pp_about {
+        font-size: 14px;
+        width: 90%;
+    }
+}
 
 .button_aboutus {
     padding-top: 40px;
@@ -88,4 +98,6 @@
     color: #ffffff;
     background: #65c178;
   }
+
+
 
