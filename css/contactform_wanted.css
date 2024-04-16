@@ -33,15 +33,15 @@
 
 .contact_form_petSitters {
     width: 570px;
-    height: 630px;
+    height: 650px;
     background-color: #ffffff;   
     border-radius: 4px;
 }
 
 @media only screen and (min-width:320px) and (max-width:767px) {
     .contact_form_petSitters  {
-        width: 350px;
-        height: 450px;
+        
+        
     }
 }
 
@@ -55,9 +55,10 @@
 @media only screen and (min-width:320px) and (max-width:767px) {
     .hh2_pp_petSit_Wanted_location  {
         padding-top: 30px;
-        padding-right: 25px;
-        padding-left: 10px;
-        padding-bottom: 5px ;
+        padding-right: 10px;
+        padding-left: 40px;
+        padding-bottom:15px ;
+       
     }
 }
 
@@ -72,7 +73,7 @@
 
 @media only screen and (min-width:320px) and (max-width:767px) {
     .hh2_petSit_Wanted  {
-        font-size: 22px;
+        font-size: 34px;
         padding-bottom: 20px;
     }
 }
@@ -87,8 +88,8 @@
 
 @media only screen and (min-width:320px) and (max-width:767px) {
     .pp_petSit_Wanted  {
-        font-size: 12px;
-        line-height: 1.25;
+        font-size: 16px;
+        line-height: 1.75;
     }
 }
  
@@ -118,8 +119,8 @@
 
 @media only screen and (min-width:320px) and (max-width:767px) {
     .figura_position_petSit  {
-        width: 300px;
-        height: 25px;
+        width: 150px;
+        height: 40px;
         font-size: 12px;
     }
 }
@@ -156,32 +157,6 @@
     color: #585858;
     cursor: pointer;
 }
-
-
-.button_contactForm button[type="submit"] {
-    display: inline-block;
-    font-size: 1rem;
-    background: #65c178;
-    color: #ffffff;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 0.7rem 10rem;
-    transition: background 0.25s, color 0.25s;
-  }
-  
-  .button_contactForm button[type="submit"]:hover {
-    color: #ffffff;
-    background: #585858;
-  }
-
-  @media only screen and (min-width:320px) and (max-width:767px) {
-    .button_contactForm  {
-        padding: 0.7rem 10rem;
-    }
-}
-
-
 
 
     /* CSS для оформлення контактної форми */
@@ -224,15 +199,30 @@
     }
 
     .find-me {
-        background-color: #65c178;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    background: #65c178;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 9px 170px;
+    transition: background 0.25s, color 0.25s;
     }
 
 
+     
+  .find-me:hover {
+    color: #ffffff;
+    background: #585858;
+  }
+
+ 
+  @media only screen and (min-width:320px) and (max-width:767px) {
+    .find-me  {
+        padding: 9px 70px;
+    }
+}
  
 
   
