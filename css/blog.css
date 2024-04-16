@@ -26,6 +26,12 @@
     font-weight: 700;  
 }
 
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .hh2_blog  {
+        font-size: 34px;
+    }
+  }
+
 .blog_image_container {
     display: flex;
     flex-direction: row;
@@ -38,6 +44,7 @@
     .blog_image_container  {
       display: flex;
       flex-direction: column;
+      margin-left: 25px;
     }
   }
   
@@ -52,6 +59,12 @@
     object-fit: cover;
 }
 
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .image_blog  {
+        height: 250px;
+        width: 340px;
+    }
+  }
 
 .text_cont_column {
     display: flex;

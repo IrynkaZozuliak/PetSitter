@@ -30,6 +30,13 @@
     letter-spacing: 0;
 }
 
+@media only screen and (min-width:320px) and (max-width:767px) {
+  .hh2_gallery_properties  {
+    font-size: 34px;
+  }
+}
+
+
 .img_gallery_allblock {
     display: flex;
     flex-direction: column;
@@ -44,19 +51,20 @@
     
 }
 
-@media only screen and (min-width:320px) and (max-width:767px) {
-  .img_gallery_position  {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25px;
-  }
-}
+
 
 .image_gallery {
     height: 280px;
     width: 369px;
     object-fit: cover;
     cursor: pointer;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+  .image_gallery  {
+    height: 90px;
+    width: 90px;
+  }
 }
 
 
