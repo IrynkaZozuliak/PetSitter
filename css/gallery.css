@@ -30,7 +30,7 @@
     letter-spacing: 0;
 }
 
-@media only screen and (min-width:320px) and (max-width:767px) {
+@media only screen and (min-width:320px) and (max-width:477px) {
   .hh2_gallery_properties  {
     font-size: 34px;
   }
@@ -60,7 +60,7 @@
     cursor: pointer;
 }
 
-@media only screen and (min-width:320px) and (max-width:767px) {
+@media only screen and (min-width:320px) and (max-width:477px) {
   .image_gallery  {
     height: 90px;
     width: 90px;

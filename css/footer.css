@@ -83,7 +83,7 @@ ul {
     background-color: #65c178;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 477px) {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
