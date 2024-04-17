@@ -61,6 +61,12 @@ background: url(/img/fone.png)
     }
 }
 
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .row_ourTeam_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 .our_Team_main {
     background-color: #2a3034;

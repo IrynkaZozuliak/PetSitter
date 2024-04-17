@@ -11,6 +11,15 @@
     }
 }
 
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .image_dog_one {
+        width: 450px;
+    height: 350px;
+    margin-left: 30px;
+    }
+}
+
+
 
 .about_us {
     margin-top: 90px;
@@ -31,6 +40,8 @@
         justify-content: center;
     }
 }
+
+
 
 
 .text_container_about {
