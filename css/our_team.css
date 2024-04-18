@@ -7,6 +7,12 @@ background: url(/img/fone.png)
     justify-content: center;
 }
 
+@media only screen and (min-width:320px)  {
+    .allBlock__ourTeam {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 .ourTeam_hh2 {
    margin-top: 90px; 
@@ -41,6 +47,18 @@ background: url(/img/fone.png)
     }
 }
 
+@media only screen and (min-width:477px) and (max-width:767px) {
+    .hh2__ourTeam   {
+        font-size: 30px; 
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .hh2__ourTeam   {
+        font-size: 39px; 
+    }
+}
+
 
 .row_ourTeam_container {
     display: flex;
@@ -52,16 +70,12 @@ background: url(/img/fone.png)
 
 @media only screen and (min-width:320px) and (max-width:477px) {
     .row_ourTeam_container   {
-        display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding-bottom: 45px;
     gap: 17px; 
-    margin-left: 25px;
     }
 }
 
-@media only screen and (min-width:320px) and (max-width:991px) {
+@media only screen and (min-width:320px){
     .row_ourTeam_container {
         display: flex;
         flex-wrap: wrap;
