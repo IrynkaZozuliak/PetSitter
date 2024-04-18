@@ -11,21 +11,30 @@
     }
 }
 
-@media only screen and (min-width:478px) and (max-width:768px) {
+@media only screen and (min-width:478px) and (max-width:767px) {
     .image_dog_one {
-        width: 400px;
-    height: 300px;
-    margin-left: 30px;
+        width: 350px;
+    height: 270px;
+    margin-left: 20px;
     }
 }
 
-@media only screen and (min-width:769px) and (max-width:991px) {
+@media only screen and (min-width:768px) and (max-width:991px) {
     .image_dog_one {
-        width: 450px;
-    height: 350px;
-    margin-left: 30px;
+        width: 370px;
+    height: 300px;
+    margin-left: 20px;
     }
 }
+
+@media only screen and (min-width:991px) and (max-width:1200px) {
+    .image_dog_one {
+        width: 450px;
+    height: 330px;
+    margin-left: 20px;
+    }
+}
+
 
 
 
@@ -52,7 +61,6 @@
 
 
 
-
 .text_container_about {
     width: 40%;
 }
@@ -67,11 +75,20 @@
 
 @media only screen and (min-width:478px) and (max-width:767px) {
     .text_container_about {
-        width: 50%;
+        width: 70%;
        margin-left: 20px;
        margin-top: 15px;
     }
 }
+
+@media only screen and (min-width:768px)  {
+    .text_container_about {
+        width: 40%;
+       margin-left: 20px;
+       margin-top: 15px;
+    }
+}
+
 
 .hh_about {
     font-size: 44px;
