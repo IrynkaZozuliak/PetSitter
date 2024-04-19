@@ -36,7 +36,7 @@
     border-radius: 5px;
 }
 
-@media only screen and (min-width:320px) and (max-width:477px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
     .contact_Us_form  {
       width: 320px;
       height: 550px;
@@ -68,7 +68,7 @@
     padding: 13px 18px;
 }
 
-@media only screen and (min-width:320px) and (max-width:477px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
     .figura_position_contactUss  {
       width: 200px;
       height: 45px;
@@ -96,7 +96,7 @@
     padding: 13px 18px;
 }
 
-@media only screen and (min-width:320px) and (max-width:477px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
     .figura_position_textare  {
         width: 200px;
         height: 130px;
@@ -127,7 +127,7 @@
     background: #585858;
   }
 
-  @media only screen and (min-width:320px) and (max-width:477px) {
+  @media only screen and (min-width:320px) and (max-width:767px) {
     .button_contactForm button[type="submit"]  {
         padding: 10px 80px;
         font-size: 12px;
