@@ -96,6 +96,7 @@ ul {
 
 
 .foot_position_cont {
+
     display: flex;
     flex-direction: column;
     color: #FFF;
@@ -133,13 +134,15 @@ ul {
 
 
     .footer-col_two {
+        max-width: 1170px;
+        margin: auto;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 80%;
+        flex-direction: row;  
+        justify-content: space-evenly;
+        padding-top: 50px;
     }
-    .footer-col_two h3 {
+
+    .hh3_foot_col_two {
         font-size: 14px;
         line-height: 1.4545;
         font-family: 'Open Sans',sans-serif;
@@ -148,8 +151,6 @@ ul {
         font-style: normal;
         letter-spacing: 0;
         color: #fff;
-        text-transform: none;
-        padding-top: 90px;
        
     }
 
@@ -162,7 +163,4 @@ ul {
     font-style: normal;
     letter-spacing: 0;
     color: #fff;
-    text-transform: none;
-    padding-top: 30px;
-    padding-bottom: 50px;
     }
