@@ -19,7 +19,7 @@
 
   @media only screen and (min-width:477px) and (max-width:601px) {
     .container  {
-        max-width: 390px;
+        max-width: 400px;
     margin: auto;
     }
   }
@@ -56,6 +56,13 @@ ul {
     padding: 0 15px;
 }
 
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .footer-col  {    
+        display: flex;
+        justify-content: center;
+    }
+  }
+
 .footer-col h4 {
     font-size: 18px;
     color: #FFF;
@@ -90,6 +97,13 @@ ul {
     font-size: 16px;
 }
 
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .footer-col ul li a  {    
+        display: flex;
+        justify-content: center;
+    }
+  }
+
 .footer-col ul li a:hover {
     padding-left: 7px;
     color: #56b3e9;
@@ -123,6 +137,13 @@ ul {
     }
   }
 
+  @media only screen and (min-width:477px) and (max-width:601px) {
+    .footer-col  {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+  }
+
 
 
 
@@ -137,6 +158,13 @@ ul {
 @media only screen and (min-width:320px) and (max-width:477px) {
     .foot_position_cont  {
         width: 80%;
+        margin-bottom: 30px;
+    }
+  }
+
+  @media only screen and (min-width:477px) and (max-width:601px) {
+    .foot_position_cont  {
+        width: 90%;
         margin-bottom: 30px;
     }
   }
@@ -209,3 +237,26 @@ ul {
     letter-spacing: 0;
     color: #fff;
     }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .footer-col_two  {    
+            display: flex;
+            flex-direction: column; 
+            padding-top: 20px; 
+        }
+      }
+
+      @media only screen and (min-width:320px) and (max-width:477px) {
+        .hh3_foot_col_two  {
+            width: 100%;
+            padding-left: 0px;
+        }
+      }
+
+      
+      @media only screen and (min-width:320px) and (max-width:477px) {
+        .pp_foot_cont_two  {
+            width: 100%;
+            padding-bottom: 15px;
+        }
+      }
