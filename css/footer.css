@@ -12,7 +12,7 @@
 
 @media only screen and (min-width:320px) and (max-width:477px) {
     .container  {
-        max-width: 280px;
+    max-width: 310px;
     margin: auto;
     }
   }
@@ -128,7 +128,24 @@ ul {
     background-color: #65c178;
 }
 
- 
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .footer-col .social-links a  {
+        height: 30px;
+        width: 30px;
+        background-color: #2a3034;
+        border-style: solid;
+        border-color: #65c178;
+        border-width: 0.5px;
+        line-height: 30px;
+    }
+  }
+
+  @media only screen and (min-width:320px) and (max-width:477px) {
+    .footer-col  {
+        display: flex;
+        flex-direction: column;
+    }
+  }
 
 @media only screen and (min-width:320px) and (max-width:477px) {
     .footer-col  {
@@ -157,7 +174,7 @@ ul {
 
 @media only screen and (min-width:320px) and (max-width:477px) {
     .foot_position_cont  {
-        width: 80%;
+        width: 100%;
         margin-bottom: 30px;
     }
   }

@@ -3,6 +3,9 @@
  
     margin-top: 90px; 
     margin-bottom: 90px;
+    display: flex;
+ 
+    justify-content: center;
 }
 
 .blog_container {
@@ -60,6 +63,12 @@
   
 }
 
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .blog_cont_size  {
+        width: 320px;
+    }
+  }
+
 .image_blog {
     height: 280px;
     width: 369px;
@@ -68,8 +77,8 @@
 
 @media only screen and (min-width:320px) and (max-width:477px) {
     .image_blog  {
-        height: 250px;
-        width: 340px;
+        height: 230px;
+        width: 320px;
     }
   }
 
