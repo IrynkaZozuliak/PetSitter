@@ -11,6 +11,34 @@
     }
 }
 
+@media only screen and (min-width:478px) and (max-width:601px) {
+    .faq {
+        margin-left: 20px;
+        margin-right: 20px;   
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .faq {
+        margin-left: 55px;
+        margin-right: 55px;   
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:991px) {
+    .faq {
+        margin-left: 75px;
+        margin-right: 75px;   
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width:1200px) {
+    .faq {
+        margin-left: 125px;
+        margin-right: 125px;   
+    }
+}
+
 .container_faq__container {
     margin-top: 70px; 
    margin-bottom: 90px;
