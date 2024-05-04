@@ -21,6 +21,8 @@
 
 }
 
+
+
 .header_green {
     background-color: #65c178;
     height: 47px;
@@ -277,14 +279,16 @@
   }
 }
 
+
+
+
  .hhtext_box {
     font-size: 62px;
     color: #ffffff;
     line-height: 1;
     font-family: 'Cabin', sans-serif;
     font-weight: 700;
-    text-transform: none;
-    text-decoration: none;
+    
     font-style: normal;
     letter-spacing: 0;
  }
@@ -297,6 +301,12 @@
 }
 
 @media only screen and (min-width:477px) and (max-width:901px) {
+  .hhtext_box   {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (min-width:901px) and (max-width:1200px) {
   .hhtext_box   {
     font-size: 58px;
   }
