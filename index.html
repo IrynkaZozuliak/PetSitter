@@ -18,44 +18,70 @@
     <!--"Start header."-->
     <header class="header">
         <div class="header_background_home"> 
-           
-            <div> 
-                <div class="header_green">
-                    <span class="numberspan">+1 (234) 567 89 00</span>
-                    
-                    <div class="header_right">
-                        <ul class="logo_container">
-                            <li class="logo facebook_header">   
-                                <span><i href="#" class="fab fa-facebook-f"></i></span>
-                            </li>
 
-                            <li class="logo instagram_header">   
-                                <span><i href="#" class="fab fa-instagram"></i></span>
-                            </li>
 
-                            <li class="logo youtube_header">
-                                <span><i href="#" class="fab fa-youtube"></i></span>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="header_green">
+                <span class="numberspan">+1 (234) 567 89 00</span>
+                
+                <div class="header_right">
+                    <ul class="logo_container">
+                        <li class="logo facebook_header">   
+                            <span><i href="#" class="fab fa-facebook-f"></i></span>
+                        </li>
+
+                        <li class="logo instagram_header">   
+                            <span><i href="#" class="fab fa-instagram"></i></span>
+                        </li>
+
+                        <li class="logo youtube_header">
+                            <span><i href="#" class="fab fa-youtube"></i></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="menu_link"> 
+                <a href="#" class="text_bestpet">BestPet</a> 
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </div>
 
-
-                <nav class="nav_menu">
-                    <div class="menu_link">
-                        <a href="#" class="text_bestpet">BestPet</a> 
-                        <div class="nav__menu">
-                            <a class="nav__menu-link" href="#aboutus">About Us</a>
-                            <a class="nav__menu-link" href="#services">Services</a>
-                            <a class="nav__menu-link" href="#faq">FAQ</a>
-                            <a class="nav__menu-link" href="#gallery">Gallery</a>
-                            <a class="nav__menu-link" href="#happy_clients">Happy Clients</a>
-                            <a class="nav__menu-link" href="#blog">Blog</a>
-                            <a class="nav__menu-link" href="#contacts">Contacts</a>
-                        </div>
-                    </div>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a class="nav__menu-link" href="#aboutus">About Us</a></li>
+                        <li><a class="nav__menu-link" href="#services">Services</a></li>
+                        <li><a class="nav__menu-link" href="#faq">FAQ</a></li>
+                        <li><a class="nav__menu-link" href="#gallery">Gallery</a></li>
+                        <li><a class="nav__menu-link" href="#happy_clients">Happy Clients</a></li>
+                        <li><a class="nav__menu-link" href="#blog">Blog</a></li>
+                        <li><a class="nav__menu-link" href="#contacts">Contacts</a></li>
+                    </ul>
                 </nav>
             </div>
+
+                       <!-- <div class="menu_link">
+                            <div class="nav__menu">
+                                <a class="nav__menu-link" href="#aboutus">About Us</a>
+                                <a class="nav__menu-link" href="#services">Services</a>
+                                <a class="nav__menu-link" href="#faq">FAQ</a>
+                                <a class="nav__menu-link" href="#gallery">Gallery</a>
+                                <a class="nav__menu-link" href="#happy_clients">Happy Clients</a>
+                                <a class="nav__menu-link" href="#blog">Blog</a>
+                                <a class="nav__menu-link" href="#contacts">Contacts</a>
+                            </div>
+                        </div> -->
+                   
+               <script>
+                hamburger = document.querySelector(".hamburger");
+                hamburger.onclick = function () {
+                    navBar = document.querySelector(".nav-bar");
+                    navBar.classList.toggle("active");
+                }
+               </script> 
+           
 
             
             <div class="text_box">
