@@ -24,6 +24,13 @@
     }
   }
 
+  @media only screen and (min-width:477px) and (max-width:601px) {
+    .partners_container  {
+        margin-left: 30px; 
+        margin-right: 30px;   
+    }
+  }
+
 .partners_column_container {
     display: flex;
     flex-direction: row;
