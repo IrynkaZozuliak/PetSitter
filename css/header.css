@@ -427,7 +427,7 @@
    
   @media only screen and (max-width:901px) {
 
- 
+    
   .hamburger  {
     display: block;
     cursor: pointer;
@@ -454,7 +454,7 @@
 }
 
 .nav-bar.active {
-  height: 1500px;
+  height: 25000px;
 }
 
 .nav-bar ul {
@@ -491,7 +491,8 @@
 .numberspan_two {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 16px;
   line-height: 1.7;
   font-family: 'Lato', sans-serif;
@@ -500,6 +501,98 @@
   color: #fff;
   text-transform: none; 
 }
+
+
+
+.wrapper_two {
+  display: flex;
+  flex-direction: row;
+  color: #fefefe;
+  justify-content: center;    
+}
+
+.wrapper_two .icon_two {
+  position: relative;
+  background: #2a3034;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fefefe;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s;  
+}
+
+
+.wrapper_two .tooltip_two {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper_two .tooltip_two::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper_two .icon_two:hover .tooltip_two {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper_two .icon_two:hover span,
+.wrapper_two .icon_two:hover .tooltip_two {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper_two .facebook_two:hover,
+.wrapper_two .facebook_two:hover .tooltip_two,
+.wrapper_two .facebook_two:hover .tooltip_two::before {
+  background: #fff;
+  color: #2a3034;
+}
+
+.wrapper_two .instagram_two:hover,
+.wrapper_two .instagram_two:hover .tooltip_two,
+.wrapper_two .instagram_two:hover .tooltip_two::before {
+  background: #fff;
+  color: #2a3034;
+}
+
+.wrapper_two .youtube_two:hover,
+.wrapper_two .youtube_two:hover .tooltip_two,
+.wrapper_two .youtube_two:hover .tooltip_two::before {
+  background: #fff;
+  color: #2a3034;
+}
+
+
 }
 
 
@@ -508,8 +601,23 @@
   .numberspan_two {
     display: none;
   }
-}
 
+  .wrapper_two .icon_two .tooltip_two {
+    display: none;
+  }
+
+  .facebook_two  {
+    display: none;
+  }
+
+  .instagram_two  {
+    display: none;
+  }
+
+  .youtube_two  {
+    display: none;
+  }
+}
 
 
 
