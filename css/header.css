@@ -251,18 +251,22 @@
     z-index: 1;
 }
 
+
+
  .text_h_p {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 250px;
     gap: 25px;
+    text-align: center;
  }
 
  @media only screen and (min-width:320px) and (max-width:477px) {
   .text_h_p   {
     margin-left: 35px;
     margin-right: 35px;
+    margin-top: 150px;
   }
 }
 
@@ -270,6 +274,7 @@
   .text_h_p   {
     margin-left: 55px;
     margin-right: 55px;
+    margin-top: 215px;
   }
 }
 
@@ -277,6 +282,7 @@
   .text_h_p   {
     margin-left: 95px;
     margin-right: 95px;
+    margin-top: 215px;
   }
 }
 
@@ -454,7 +460,7 @@
 }
 
 .nav-bar.active {
-  height: 25000px;
+  height: 5600px;
 }
 
 .nav-bar ul {
@@ -622,7 +628,7 @@
 
 
 
-
+ 
 
 
 
