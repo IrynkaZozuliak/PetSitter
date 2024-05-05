@@ -248,6 +248,7 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;  
+    z-index: 1;
 }
 
  .text_h_p {
@@ -430,6 +431,7 @@
   .hamburger  {
     display: block;
     cursor: pointer;
+    z-index: 1;
   }
 .hamburger .line {
   width: 30px;
@@ -441,26 +443,32 @@
 .nav-bar {
   height: 0;
   position: absolute;
-  top: 80px;
+  top: 0px;
   left: 0;
   right: 0;
   width: 100vw;
-  background: #65c178;
+  background: #2a3034;
   transition: 0.5s;
   overflow: hidden;
+  z-index: 0;
 }
 
 .nav-bar.active {
-  height: 450px;
+  height: 1500px;
 }
 
 .nav-bar ul {
   display: block;
   width: fit-content;
-  margin: 80px auto 0 auto;
+  margin: 100px auto 0 auto;
   text-align: center;
   transition: 0.5s;
   opacity: 0;
+}
+
+.nav-bar li {
+  display: flex;
+ justify-content: center;
 }
 
 .nav-bar.active ul {
@@ -469,11 +477,8 @@
 .nav__menu-link {
   margin-bottom: 12px;
   padding: 10px 25px;
-  border-radius: 50px;
   margin: 0 5px;
-  color: #fefefe;
-  background: #56b3e9;
-  
+  color: #fefefe; 
 }
 
  
@@ -483,7 +488,28 @@
    
 }
 
+.numberspan_two {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff;
+  text-transform: none; 
 }
+}
+
+
+
+@media only screen and (min-width:901px)  {
+  .numberspan_two {
+    display: none;
+  }
+}
+
 
 
 
