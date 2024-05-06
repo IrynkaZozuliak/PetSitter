@@ -46,12 +46,21 @@
     border-radius: 4px;
 }
 
-@media only screen and (min-width:320px) and (max-width:991px) {
+@media only screen and (min-width:320px) and (max-width:601px) {
     .contact_form_petSitters  {
         width: 320px;
         height: 650px;
     }
 }
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .contact_form_petSitters  {
+      width: 400px;
+      height: 650px;   
+    }
+  }
+
+ 
 
 .hh2_pp_petSit_Wanted_location {
     padding-top: 60px;
@@ -60,15 +69,24 @@
     padding-bottom: 35px ;
 }
 
-@media only screen and (min-width:320px) and (max-width:991px) {
+@media only screen and (min-width:320px) and (max-width:601px) {
     .hh2_pp_petSit_Wanted_location  {
         padding-top: 30px;
         padding-right: 10px;
         padding-left: 40px;
-        padding-bottom:15px ;
-       
+        padding-bottom:15px ;  
     }
 }
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .hh2_pp_petSit_Wanted_location  {
+        padding-top: 45px; 
+        padding-bottom: 10px; 
+    }
+  }
+
+ 
+
 
 .hh2_petSit_Wanted {
     font-size: 44px;
@@ -107,8 +125,14 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-     
 }
+
+@media only screen and (min-width:601px) and (max-width:991px) {
+    .figura_position_petSit_all  {
+        gap: 20px;
+    }
+}
+
 .figura_position_petSit {
     width: 456px;
     height: 45px;
@@ -125,13 +149,21 @@
     padding: 13px 18px;
 }
 
-@media only screen and (min-width:320px) and (max-width:991px) {
+@media only screen and (min-width:320px) and (max-width:601px) {
     .figura_position_petSit  {
         width: 200px;
         height: 40px;
         font-size: 12px;
     }
 }
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .figura_position_petSit  {
+        width: 290px;
+        height: 40px;
+        font-size: 12px; 
+    }
+  }
 
 .figura_position_petSit:focus{
     border-color: rgb(81, 149, 228);}
@@ -155,6 +187,12 @@
     padding-left: 59px;
     gap: 10px;
  }
+
+ @media only screen and (min-width:601px) and (max-width:991px) {
+    .position_container_img_PetSit  {
+        padding-top: 15px;
+    }
+}
 
 
 .hh3_text_colories_ChoseFile {
@@ -226,11 +264,18 @@
   }
 
  
-  @media only screen and (min-width:320px) and (max-width:991px) {
+  @media only screen and (min-width:320px) and (max-width:601px) {
     .find-me  {
         padding: 9px 70px;
     }
 }
+
+@media only screen and (min-width:601px) and (max-width:991px) {
+    .find-me  {
+        padding: 9px 120px;
+    }
+}
+
  
 
   

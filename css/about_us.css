@@ -102,7 +102,13 @@
 
 @media only screen and (min-width:320px) and (max-width:477px) {
     .hh_about {
-        font-size: 28px;
+        font-size: 34px;
+    }
+}
+
+@media only screen and (min-width:477px) and (max-width:901px) {
+    .hh_about {
+        font-size: 39px;
     }
 }
 
