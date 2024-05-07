@@ -112,22 +112,22 @@
 
 .hh2_blog_text_content {
     font-size: 22px;
-       color: #676767;
-       line-height: 1.4;
-       font-family: Cabin,sans-serif;
-       font-weight: bold;
-       text-transform: none;
-       text-decoration: none;
-       font-style: normal;
-       letter-spacing: 0;
+    color: #676767;
+    line-height: 1.4;
+    font-family: Cabin,sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
 }
 
 .pp_blog_text_content {
-       font-size: 15px;
-       line-height: 1.7;
-       font-family: 'Lato', sans-serif;
-       color: #676767;
-       margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+    color: #676767;
+    margin-top: 20px;
            
 }
 
@@ -152,3 +152,96 @@
     text-decoration: underline;
     transition: 0.2s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.blog_aa_pp_text_two {
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+    color: #676767;
+    width: 365px; 
+ }
+
+  /* 
+  тут додано анімація до тексту read more, коли поруч є плюсик +
+  натискаючи на який розкривається додаткове поле
+  
+  summary {
+    display:inline-block;
+    padding: .1em .5em .1em .4em;
+    font-size:1.4em;
+    cursor: pointer;
+  }
+  
+  summary::after {   
+     content: "+";
+     margin-left:130px  ;
+   }
+  
+  details[open] > summary::after {
+     content: "-";
+   }
+  
+  summary ~ * {
+     padding:0 1em 0 1em;
+  }
+  
+   details{
+         display:block;
+         margin-bottom: .5rem;
+   }
+  */
+  
+  
+  details {
+     font-size: 1rem;
+     margin: 0 auto;
+     width: 100%;
+     position: relative;
+     max-width: 600px;
+     transition: all 0.3s ease-in-out;
+  }
+  
+   
+  
+  summary {
+     user-select: none;
+     cursor: pointer;
+     font-weight: 600;
+     display: flex;
+     list-style: none;
+     padding: 1px;
+     align-items: center;
+  }
+  
+  summary:hover  {
+     opacity: 1;
+  }
+  
+  summary::-webkit-details-marker {
+     display: none;
+  }
+  
+  summary:focus {
+     outline: none;
+  }
+  
+  summary:hover {
+     opacity: 1;
+  }
+  
+  
